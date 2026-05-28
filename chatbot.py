@@ -7,7 +7,6 @@ from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 load_dotenv('API.env')
 import anthropic
-what is 
 # Load the banking Q&A dataset from JSON file
 with open("dataset.json", "r") as file:
     data = json.load(file)

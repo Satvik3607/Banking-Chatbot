@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is KYC in banking?",
+    "answer": "KYC stands for Know Your Customer. It is a mandatory process in banking where financial institutions verify the identity and address of their customers to comply with anti-money laundering regulations. Banks collect personal information, government-issued ID proofs, and address verification documents as part of KYC to prevent fraud and illegal activities."
+  },
+  {
+    "question": "What are the benefits of a savings account?",
+    "answer": "A savings account offers several benefits including regular interest income on your deposited amount, liquidity to withdraw funds anytime, safety through FDIC insurance, easy fund transfers, bill payment facilities, and a debit card for transactions. Savings accounts are ideal for building an emergency fund and earning modest returns on your money while keeping it easily accessible."
+  },
+  {
+    "question": "What documents are required to open a bank account?",
+    "answer": "To open a bank account, you typically need proof of identity such as a passport, driving license, or government ID, proof of address like a utility bill or rent agreement, your PAN card for tax identification, and completed account opening forms. Some banks may also require additional documents like employment verification or income proof depending on the account type."
+  },
+  {
+    "question": "What is a fixed deposit in banking?",
+    "answer": "A fixed deposit is a financial product where you deposit a lump sum amount with the bank for a fixed tenure at a predetermined interest rate. The money is locked in for the specified period, and you cannot withdraw it before maturity without penalty. Fixed deposits offer higher interest rates compared to savings accounts and are considered low-risk investment options suitable for conservative investors."
+  },
+  {
+    "question": "What is a current account and who should open one?",
+    "answer": "A current account is a bank account designed for businesses, traders, and frequent transactors. It offers unlimited deposits and withdrawals, overdraft facilities, and check-writing capabilities. Current accounts do not earn interest on balances but provide features like standing orders and bill payments. They are ideal for businesses, startups, and professionals who need frequent banking operations."
+  },
+  {
+    "question": "How does net banking work and what are its advantages?",
+    "answer": "Net banking allows you to access your bank account and perform transactions through the bank's website or mobile application using internet connectivity. Advantages include 24/7 access to your account from anywhere, ability to transfer funds, check balance, pay bills, apply for loans, and manage multiple accounts from one platform. It eliminates the need to visit physical bank branches for routine transactions and is convenient and secure."
+  },
+  {
+    "question": "What is a credit score and how does it affect you?",
+    "answer": "A credit score is a three-digit number that represents your creditworthiness based on your borrowing and repayment history. Scores typically range from 300 to 900, with higher scores indicating better credit health. Banks and lenders use credit scores to decide whether to approve your loan or credit application and at what interest rate. A good credit score helps you get loans at lower interest rates and better credit terms."
+  },
+  {
+    "question": "What is loan EMI and how is it calculated?",
+    "answer": "EMI stands for Equated Monthly Installment, which is the fixed amount you pay monthly to repay a loan. The EMI is calculated based on three factors: the principal loan amount, the interest rate per annum, and the loan tenure in months. A higher principal or interest rate increases the EMI, while a longer tenure reduces it. EMI remains constant throughout the loan period for fixed-rate loans."
+  },
+  {
+    "question": "What is UPI and how does it work?",
+    "answer": "UPI stands for Unified Payments Interface, a real-time payment system that enables instant money transfers between bank accounts using a smartphone. UPI works by linking your bank account to a virtual address and using a PIN for authentication. You can send and receive money to anyone using their UPI ID, phone number, or AADHAAR number. UPI transactions are fast, secure, and charge minimal or no fees."
+  },
+  {
+    "question": "What is a nominee in a bank account?",
+    "answer": "A nominee is a person designated in your bank account to receive your account balance and accumulated benefits in case of your death. You can appoint one or more nominees during account opening or update it later. The nominee is not an owner but receives the funds as per the bank's policy. It is an important estate planning tool that ensures quick transfer of your assets without legal complications."
+  }
+]

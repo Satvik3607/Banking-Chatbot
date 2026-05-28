@@ -1,10 +1,11 @@
 import json
 import numpy
 import warnings
+import os
 warnings.filterwarnings('ignore')
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv('API.env')
 import anthropic
 
 # Load the banking Q&A dataset from JSON file
@@ -54,7 +55,7 @@ def get_answer(user_query, context):
     
     # Call the Claude API with the context and user query
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-opus-4-1",
         max_tokens=300,
         messages=[
             {

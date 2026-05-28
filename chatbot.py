@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 load_dotenv('API.env')
 import anthropic
-
+what is 
 # Load the banking Q&A dataset from JSON file
 with open("dataset.json", "r") as file:
     data = json.load(file)
@@ -53,20 +53,22 @@ def get_answer(user_query, context):
     # Create an Anthropic API client (reads ANTHROPIC_API_KEY from environment automatically)
     client = anthropic.Anthropic()
     
-    # Call the Claude API with the context and user query
-    message = client.messages.create(
-        model="claude-opus-4-1",
-        max_tokens=300,
-        messages=[
-            {
-                "role": "user",
-                "content": f"You are a helpful banking assistant. Here is some context: {context}. Here is the user's question: {user_query}. Please answer clearly."
-            }
-        ]
-    )
-    
-    # Return the assistant's response text
-    return message.content[0].text.strip()
+    # Try to call the Claude API, fallback to context if API fails
+    try:
+        message = client.messages.create(
+            model="claude-opus-4-1",
+            max_tokens=300,
+            messages=[
+                {
+                    "role": "user",
+                    "content": f"You are a helpful banking assistant. Here is some context: {context}. Here is the user's question: {user_query}. Please answer clearly."
+                }
+            ]
+        )
+        return message.content[0].text.strip()
+    except:
+        # If API fails, return the matched context directly
+        return context
 
 
 # Main function that runs the chatbot interactive loop

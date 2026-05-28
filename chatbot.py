@@ -1,5 +1,7 @@
 import json
 import numpy
+import warnings
+warnings.filterwarnings('ignore')
 from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
 load_dotenv()
